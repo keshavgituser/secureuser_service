@@ -1,0 +1,270 @@
+2021-11-01 11:53:47.240  INFO 16932 --- [restartedMain] c.s.SecureuserServiceApplication         : Starting SecureuserServiceApplication using Java 15.0.2 on LIN25003875 with PID 16932 (C:\Users\kmahendr\OneDrive - Capgemini\Desktop\Projects\Microservices2\secureuser_service\target\classes started by kmahendr in C:\Users\kmahendr\OneDrive - Capgemini\Desktop\Projects\Microservices2\secureuser_service)
+2021-11-01 11:53:47.258  INFO 16932 --- [restartedMain] c.s.SecureuserServiceApplication         : No active profile set, falling back to default profiles: default
+2021-11-01 11:53:47.357  INFO 16932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-01 11:53:47.358  INFO 16932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-01 11:53:49.568  INFO 16932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-01 11:53:49.911  INFO 16932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 327 ms. Found 1 JPA repository interfaces.
+2021-11-01 11:53:50.278  INFO 16932 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=03f63fe3-1efd-3b85-8db8-8d61d3f7a84d
+2021-11-01 11:53:51.161  INFO 16932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-11-01 11:53:51.177  INFO 16932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-01 11:53:51.178  INFO 16932 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-01 11:53:51.359  INFO 16932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-01 11:53:51.360  INFO 16932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4001 ms
+2021-11-01 11:53:51.576  INFO 16932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-01 11:53:51.671  INFO 16932 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-01 11:53:51.934  INFO 16932 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-01 11:53:52.086  INFO 16932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-01 11:53:52.459  INFO 16932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-01 11:53:52.503  INFO 16932 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-11-01 11:53:54.992  INFO 16932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-01 11:53:55.034  INFO 16932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-01 11:53:55.988  WARN 16932 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-01 11:53:57.060  INFO 16932 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17c59496, org.springframework.security.web.context.SecurityContextPersistenceFilter@28f97b4d, org.springframework.security.web.header.HeaderWriterFilter@7c7461b3, org.springframework.security.web.authentication.logout.LogoutFilter@52e5df77, com.secureuser.filter.JwtRequestFilter@582d3033, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73a31b78, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7397de20, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@146d4e79, org.springframework.security.web.session.SessionManagementFilter@377c1903, org.springframework.security.web.access.ExceptionTranslationFilter@2d28cde1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@748233e9]
+2021-11-01 11:53:57.101  INFO 16932 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-01 11:53:57.522  INFO 16932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-01 11:53:58.308  INFO 16932 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-11-01 11:53:58.718  WARN 16932 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-11-01 11:53:58.917  INFO 16932 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-11-01 11:53:59.029  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-11-01 11:53:59.041  INFO 16932 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 11:53:59.131  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-11-01 11:53:59.131  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-11-01 11:53:59.132  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-11-01 11:53:59.132  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-11-01 11:53:59.133  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-11-01 11:53:59.133  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-11-01 11:53:59.133  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-11-01 11:54:00.359  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-11-01 11:54:00.374  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-11-01 11:54:00.389  INFO 16932 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-11-01 11:54:00.422  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1635747840420 with initial instances count: 0
+2021-11-01 11:54:00.428  INFO 16932 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECUREUSER-SERVICE with eureka with status UP
+2021-11-01 11:54:00.431  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635747840431, current=UP, previous=STARTING]
+2021-11-01 11:54:00.436  INFO 16932 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECUREUSER-SERVICE/LIN25003875.corp.capgemini.com:secureuser-service:8081: registering service...
+2021-11-01 11:54:00.503  INFO 16932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-11-01 11:54:00.504  INFO 16932 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2021-11-01 11:54:00.751  INFO 16932 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-11-01 11:54:00.759  INFO 16932 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECUREUSER-SERVICE/LIN25003875.corp.capgemini.com:secureuser-service:8081 - registration status: 204
+2021-11-01 11:54:00.808  INFO 16932 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-11-01 11:54:00.913  INFO 16932 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-11-01 11:54:00.965  INFO 16932 --- [restartedMain] c.s.SecureuserServiceApplication         : Started SecureuserServiceApplication in 14.618 seconds (JVM running for 15.78)
+2021-11-01 11:54:30.410  INFO 16932 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-11-01 11:54:30.412  INFO 16932 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-11-01 11:54:30.412  INFO 16932 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-11-01 11:54:30.413  INFO 16932 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-11-01 11:54:30.414  INFO 16932 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-11-01 11:54:30.414  INFO 16932 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2021-11-01 11:54:30.414  INFO 16932 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-11-01 11:54:30.450  INFO 16932 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-11-01 11:58:59.307  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 12:03:59.349  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 12:08:59.376  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 12:13:59.395  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 12:17:39.976  INFO 16932 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-01 12:17:39.976  INFO 16932 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-01 12:17:40.025  INFO 16932 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 48 ms
+2021-11-01 12:17:41.200  INFO 16932 --- [http-nio-8081-exec-2] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 12:17:41.443  INFO 16932 --- [http-nio-8081-exec-2] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 12:18:59.403  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 12:19:20.612  INFO 16932 --- [http-nio-8081-exec-4] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 12:19:20.873  INFO 16932 --- [http-nio-8081-exec-4] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 12:20:53.463  INFO 16932 --- [http-nio-8081-exec-6] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 12:20:53.642  INFO 16932 --- [http-nio-8081-exec-6] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 12:23:59.405  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 12:28:59.411  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 12:33:59.412  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 12:38:59.423  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 12:43:59.435  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 12:44:53.498  INFO 16932 --- [http-nio-8081-exec-8] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 12:44:53.715  INFO 16932 --- [http-nio-8081-exec-8] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 12:48:59.449  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 12:49:15.369  INFO 16932 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SECUREUSER-SERVICE with eureka with status DOWN
+2021-11-01 12:49:15.370  INFO 16932 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635751155370, current=DOWN, previous=UP]
+2021-11-01 12:49:15.371  INFO 16932 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECUREUSER-SERVICE/LIN25003875.corp.capgemini.com:secureuser-service:8081: registering service...
+2021-11-01 12:49:15.441  INFO 16932 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECUREUSER-SERVICE/LIN25003875.corp.capgemini.com:secureuser-service:8081 - registration status: 204
+2021-11-01 12:49:15.545  INFO 16932 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-01 12:49:15.611  INFO 16932 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-01 12:49:15.706  INFO 16932 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-01 12:49:15.707  INFO 16932 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-11-01 12:49:18.760  INFO 16932 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-11-01 12:49:18.897  INFO 16932 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECUREUSER-SERVICE/LIN25003875.corp.capgemini.com:secureuser-service:8081 - deregister  status: 200
+2021-11-01 12:49:18.981  INFO 16932 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-11-01 12:49:19.467  INFO 16932 --- [restartedMain] c.s.SecureuserServiceApplication         : Starting SecureuserServiceApplication using Java 15.0.2 on LIN25003875 with PID 16932 (C:\Users\kmahendr\OneDrive - Capgemini\Desktop\Projects\Microservices2\secureuser_service\target\classes started by kmahendr in C:\Users\kmahendr\OneDrive - Capgemini\Desktop\Projects\Microservices2\secureuser_service)
+2021-11-01 12:49:19.468  INFO 16932 --- [restartedMain] c.s.SecureuserServiceApplication         : No active profile set, falling back to default profiles: default
+2021-11-01 12:49:20.270  INFO 16932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-01 12:49:20.297  INFO 16932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+2021-11-01 12:49:20.402  INFO 16932 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=03f63fe3-1efd-3b85-8db8-8d61d3f7a84d
+2021-11-01 12:49:20.597  INFO 16932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-11-01 12:49:20.598  INFO 16932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-01 12:49:20.598  INFO 16932 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-01 12:49:20.659  INFO 16932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-01 12:49:20.659  INFO 16932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1183 ms
+2021-11-01 12:49:20.732  INFO 16932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-01 12:49:20.742  INFO 16932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-11-01 12:49:20.955  INFO 16932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-11-01 12:49:20.958  INFO 16932 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-11-01 12:49:21.197  INFO 16932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-01 12:49:21.198  INFO 16932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-01 12:49:21.342  WARN 16932 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-01 12:49:21.591  INFO 16932 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4464367, org.springframework.security.web.context.SecurityContextPersistenceFilter@11a0e3c6, org.springframework.security.web.header.HeaderWriterFilter@2d268a59, org.springframework.security.web.authentication.logout.LogoutFilter@73467107, com.secureuser.filter.JwtRequestFilter@421e4ded, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1138fa99, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@855dea5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@cd35440, org.springframework.security.web.session.SessionManagementFilter@3bdad189, org.springframework.security.web.access.ExceptionTranslationFilter@3a0753f8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@22963d7e]
+2021-11-01 12:49:21.608  INFO 16932 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-01 12:49:21.748  INFO 16932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-01 12:49:22.028  INFO 16932 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-11-01 12:49:22.149  WARN 16932 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-11-01 12:49:22.187  INFO 16932 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-11-01 12:49:22.208  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-11-01 12:49:22.209  INFO 16932 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 12:49:22.220  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-11-01 12:49:22.220  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-11-01 12:49:22.220  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-11-01 12:49:22.220  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-11-01 12:49:22.220  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-11-01 12:49:22.220  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-11-01 12:49:22.221  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-11-01 12:49:22.254  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-11-01 12:49:22.261  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-11-01 12:49:22.268  INFO 16932 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-11-01 12:49:22.281  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1635751162281 with initial instances count: 1
+2021-11-01 12:49:22.283  INFO 16932 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECUREUSER-SERVICE with eureka with status UP
+2021-11-01 12:49:22.283  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635751162283, current=UP, previous=STARTING]
+2021-11-01 12:49:22.284  INFO 16932 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECUREUSER-SERVICE/LIN25003875.corp.capgemini.com:secureuser-service:8081: registering service...
+2021-11-01 12:49:22.287  INFO 16932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-11-01 12:49:22.288  INFO 16932 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2021-11-01 12:49:22.313  INFO 16932 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECUREUSER-SERVICE/LIN25003875.corp.capgemini.com:secureuser-service:8081 - registration status: 204
+2021-11-01 12:49:22.416  INFO 16932 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-11-01 12:49:22.419  INFO 16932 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-11-01 12:49:22.436  INFO 16932 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-11-01 12:49:22.447  INFO 16932 --- [restartedMain] c.s.SecureuserServiceApplication         : Started SecureuserServiceApplication in 3.251 seconds (JVM running for 3337.094)
+2021-11-01 12:49:22.450  INFO 16932 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-01 12:53:07.106  INFO 16932 --- [Thread-9] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SECUREUSER-SERVICE with eureka with status DOWN
+2021-11-01 12:53:07.108  INFO 16932 --- [Thread-9] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635751387108, current=DOWN, previous=UP]
+2021-11-01 12:53:07.108  INFO 16932 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECUREUSER-SERVICE/LIN25003875.corp.capgemini.com:secureuser-service:8081: registering service...
+2021-11-01 12:53:07.141  INFO 16932 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECUREUSER-SERVICE/LIN25003875.corp.capgemini.com:secureuser-service:8081 - registration status: 204
+2021-11-01 12:53:07.167  INFO 16932 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-01 12:53:07.170  INFO 16932 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-11-01 12:53:07.196  INFO 16932 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-11-01 12:53:07.199  INFO 16932 --- [Thread-9] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-11-01 12:53:10.214  INFO 16932 --- [Thread-9] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-11-01 12:53:10.223  INFO 16932 --- [Thread-9] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECUREUSER-SERVICE/LIN25003875.corp.capgemini.com:secureuser-service:8081 - deregister  status: 200
+2021-11-01 12:53:10.289  INFO 16932 --- [Thread-9] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-11-01 12:53:10.574  INFO 16932 --- [restartedMain] c.s.SecureuserServiceApplication         : Starting SecureuserServiceApplication using Java 15.0.2 on LIN25003875 with PID 16932 (C:\Users\kmahendr\OneDrive - Capgemini\Desktop\Projects\Microservices2\secureuser_service\target\classes started by kmahendr in C:\Users\kmahendr\OneDrive - Capgemini\Desktop\Projects\Microservices2\secureuser_service)
+2021-11-01 12:53:10.574  INFO 16932 --- [restartedMain] c.s.SecureuserServiceApplication         : No active profile set, falling back to default profiles: default
+2021-11-01 12:53:11.416  INFO 16932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-01 12:53:11.441  INFO 16932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+2021-11-01 12:53:11.574  INFO 16932 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=03f63fe3-1efd-3b85-8db8-8d61d3f7a84d
+2021-11-01 12:53:11.747  INFO 16932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-11-01 12:53:11.749  INFO 16932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-01 12:53:11.749  INFO 16932 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-01 12:53:11.834  INFO 16932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-01 12:53:11.834  INFO 16932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1255 ms
+2021-11-01 12:53:11.965  INFO 16932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-01 12:53:11.976  INFO 16932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-11-01 12:53:12.447  INFO 16932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-11-01 12:53:12.448  INFO 16932 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-11-01 12:53:12.693  INFO 16932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-01 12:53:12.694  INFO 16932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-01 12:53:12.864  WARN 16932 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-01 12:53:13.144  INFO 16932 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@36cb82cd, org.springframework.security.web.context.SecurityContextPersistenceFilter@b4c244b, org.springframework.security.web.header.HeaderWriterFilter@68689b7c, org.springframework.security.web.authentication.logout.LogoutFilter@233410ed, com.secureuser.filter.JwtRequestFilter@6277aa85, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3deb515, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f416d69, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b38bf76, org.springframework.security.web.session.SessionManagementFilter@7f733c99, org.springframework.security.web.access.ExceptionTranslationFilter@530b722d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5282f523]
+2021-11-01 12:53:13.156  INFO 16932 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-01 12:53:13.262  INFO 16932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-01 12:53:13.696  INFO 16932 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-11-01 12:53:13.884  WARN 16932 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-11-01 12:53:13.946  INFO 16932 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-11-01 12:53:13.970  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-11-01 12:53:13.970  INFO 16932 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 12:53:13.981  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-11-01 12:53:13.981  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-11-01 12:53:13.981  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-11-01 12:53:13.981  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-11-01 12:53:13.981  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-11-01 12:53:13.981  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-11-01 12:53:13.981  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-11-01 12:53:14.029  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-11-01 12:53:14.038  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-11-01 12:53:14.045  INFO 16932 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-11-01 12:53:14.061  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1635751394061 with initial instances count: 1
+2021-11-01 12:53:14.064  INFO 16932 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECUREUSER-SERVICE with eureka with status UP
+2021-11-01 12:53:14.064  INFO 16932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635751394064, current=UP, previous=STARTING]
+2021-11-01 12:53:14.065  INFO 16932 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECUREUSER-SERVICE/LIN25003875.corp.capgemini.com:secureuser-service:8081: registering service...
+2021-11-01 12:53:14.070  INFO 16932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-11-01 12:53:14.071  INFO 16932 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2021-11-01 12:53:14.095  INFO 16932 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECUREUSER-SERVICE/LIN25003875.corp.capgemini.com:secureuser-service:8081 - registration status: 204
+2021-11-01 12:53:14.255  INFO 16932 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-11-01 12:53:14.256  INFO 16932 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-11-01 12:53:14.267  INFO 16932 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-11-01 12:53:14.289  INFO 16932 --- [restartedMain] c.s.SecureuserServiceApplication         : Started SecureuserServiceApplication in 3.898 seconds (JVM running for 3568.936)
+2021-11-01 12:53:14.298  INFO 16932 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-01 12:58:13.995  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 12:58:28.580  INFO 16932 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-01 12:58:28.581  INFO 16932 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-01 12:58:28.583  INFO 16932 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-11-01 12:58:28.717  INFO 16932 --- [http-nio-8081-exec-2] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 12:58:28.849  INFO 16932 --- [http-nio-8081-exec-2] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 13:03:14.007  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 13:08:14.017  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 13:13:14.029  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 13:13:42.354 ERROR 16932 --- [http-nio-8081-exec-4] com.secureuser.service.UserServiceImpl   : Exception
+2021-11-01 13:13:44.138 ERROR 16932 --- [http-nio-8081-exec-5] com.secureuser.service.UserServiceImpl   : Exception
+2021-11-01 13:13:50.334 ERROR 16932 --- [http-nio-8081-exec-7] com.secureuser.service.UserServiceImpl   : Exception
+2021-11-01 13:13:51.131 ERROR 16932 --- [http-nio-8081-exec-8] com.secureuser.service.UserServiceImpl   : Exception
+2021-11-01 13:13:51.371 ERROR 16932 --- [http-nio-8081-exec-9] com.secureuser.service.UserServiceImpl   : Exception
+2021-11-01 13:14:34.902 ERROR 16932 --- [http-nio-8081-exec-1] com.secureuser.service.UserServiceImpl   : Exception
+2021-11-01 13:14:35.055 ERROR 16932 --- [http-nio-8081-exec-2] com.secureuser.service.UserServiceImpl   : Exception
+2021-11-01 13:14:35.263 ERROR 16932 --- [http-nio-8081-exec-3] com.secureuser.service.UserServiceImpl   : Exception
+2021-11-01 13:14:36.576 ERROR 16932 --- [http-nio-8081-exec-4] com.secureuser.service.UserServiceImpl   : Exception
+2021-11-01 13:14:37.481 ERROR 16932 --- [http-nio-8081-exec-6] com.secureuser.service.UserServiceImpl   : Exception
+2021-11-01 13:14:39.631 ERROR 16932 --- [http-nio-8081-exec-7] com.secureuser.service.UserServiceImpl   : Exception
+2021-11-01 13:14:57.738 ERROR 16932 --- [http-nio-8081-exec-9] com.secureuser.service.UserServiceImpl   : Exception
+2021-11-01 13:15:16.648  INFO 16932 --- [http-nio-8081-exec-1] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 13:18:14.046  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 13:23:14.054  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 13:28:14.062  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 13:28:57.540  INFO 16932 --- [http-nio-8081-exec-4] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 13:28:57.819  INFO 16932 --- [http-nio-8081-exec-4] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 13:33:14.068  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 13:33:30.409  INFO 16932 --- [http-nio-8081-exec-6] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 13:33:30.665  INFO 16932 --- [http-nio-8081-exec-6] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 13:34:10.552  INFO 16932 --- [http-nio-8081-exec-7] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 13:34:10.723  INFO 16932 --- [http-nio-8081-exec-7] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 13:35:23.140  INFO 16932 --- [http-nio-8081-exec-9] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 13:35:23.435  INFO 16932 --- [http-nio-8081-exec-9] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 13:37:17.959  INFO 16932 --- [http-nio-8081-exec-1] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 13:37:18.204  INFO 16932 --- [http-nio-8081-exec-1] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 13:38:14.087  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 13:41:49.962  INFO 16932 --- [http-nio-8081-exec-3] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 13:41:50.236  INFO 16932 --- [http-nio-8081-exec-3] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 13:43:14.095  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 13:46:28.207  INFO 16932 --- [http-nio-8081-exec-5] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 13:46:28.489  INFO 16932 --- [http-nio-8081-exec-5] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 13:48:14.106  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 13:53:14.111  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 13:58:14.126  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 14:03:14.152  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 14:03:43.173  INFO 16932 --- [http-nio-8081-exec-8] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 14:03:43.432  INFO 16932 --- [http-nio-8081-exec-8] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 14:07:19.424  INFO 16932 --- [http-nio-8081-exec-10] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 14:07:19.686  INFO 16932 --- [http-nio-8081-exec-10] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 14:08:09.706  INFO 16932 --- [http-nio-8081-exec-2] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 14:08:09.949  INFO 16932 --- [http-nio-8081-exec-2] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 14:08:14.157  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 14:13:14.166  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 14:13:22.329  INFO 16932 --- [http-nio-8081-exec-4] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 14:13:22.599  INFO 16932 --- [http-nio-8081-exec-4] com.secureuser.service.UserServiceImpl   : Method End Use Found
+2021-11-01 14:18:14.177  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 14:23:14.194  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 14:28:14.204  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 14:33:14.215  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 14:38:14.231  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 14:43:14.241  INFO 16932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-01 14:45:06.241  INFO 16932 --- [RMI TCP Connection(211)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-11-01 14:45:06.374  INFO 16932 --- [RMI TCP Connection(211)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SECUREUSER-SERVICE with eureka with status DOWN
+2021-11-01 14:45:06.379  INFO 16932 --- [RMI TCP Connection(211)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635758106379, current=DOWN, previous=UP]
+2021-11-01 14:45:06.386  INFO 16932 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECUREUSER-SERVICE/LIN25003875.corp.capgemini.com:secureuser-service:8081: registering service...
+2021-11-01 14:45:06.448  INFO 16932 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECUREUSER-SERVICE/LIN25003875.corp.capgemini.com:secureuser-service:8081 - registration status: 204
+2021-11-01 14:45:06.855  INFO 16932 --- [RMI TCP Connection(211)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-01 14:45:06.917  INFO 16932 --- [RMI TCP Connection(211)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2021-11-01 14:45:06.925  INFO 16932 --- [RMI TCP Connection(211)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2021-11-01 14:45:06.942  INFO 16932 --- [RMI TCP Connection(211)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-11-01 14:45:09.986  INFO 16932 --- [RMI TCP Connection(211)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-11-01 14:45:09.992  INFO 16932 --- [RMI TCP Connection(211)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECUREUSER-SERVICE/LIN25003875.corp.capgemini.com:secureuser-service:8081 - deregister  status: 200
+2021-11-01 14:45:10.116  INFO 16932 --- [RMI TCP Connection(211)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
