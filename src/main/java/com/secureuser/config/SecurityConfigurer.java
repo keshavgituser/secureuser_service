@@ -41,6 +41,17 @@ public class SecurityConfigurer extends WebSecurityConfigurerAdapter {
             "/webjars/**"
 	};
 	
+	public static final String[] PRIVATE_URLS= {
+			"/secureuser/profile/{loginName}",
+			"/secureuser/profiles/all",
+			"/secureuser/profiles/allbyrole/{userrole}",
+			"/secureuser/profile/update",
+			"/secureuser/profile/deleteprofile/{loginName}",
+			"/secureuser/farmer/{loginName}/addcomplaint",
+			"/secureuser/dealer/{loginName}/addadvertise"
+			
+	};
+	
 	public static final String[] PUBLIC_URLS= {
 			"/secureuser/farmer/register",
 			"/secureuser/dealer/register",
@@ -80,11 +91,12 @@ public class SecurityConfigurer extends WebSecurityConfigurerAdapter {
 		http.csrf().disable()
 		.authorizeRequests()
 		.antMatchers("/secureuser/login").permitAll()
-		.antMatchers("/secureuser/admin/register").hasRole("ADMIN")
+		.antMatchers("/secureuser/admin/register").permitAll()
 		.antMatchers(PUBLIC_URLS).permitAll()
 		.antMatchers(SWAGGER_URLS).permitAll()
+		.antMatchers(PRIVATE_URLS).permitAll()
 				.anyRequest().permitAll()
-//				.and().formLogin()
+			.and().formLogin().loginPage("http://localhost:4200/login")
 				.and().exceptionHandling().and().sessionManagement()
 				.sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 		http.addFilterBefore(jwtRequestFilter,UsernamePasswordAuthenticationFilter.class);

@@ -248,16 +248,16 @@ public class UserController {
 				jwt = Header.substring(7);
 				username = jwtTokenUtil.extractUsername(jwt);
 			}
-			
-			if(!username.equals(loginName))
-			{
-				throw new LoginException("Please Authorize yourself as a :-"+loginName);
-			}	
+//			
+//			if(!username.equals(loginName))
+//			{
+//				throw new LoginException("Please Authorize yourself as admin :-"+loginName);
+//			}	
 				
 		User foundUser=userService.findByLoginName(loginName); 
 		
 		log.info("-----UserController--FindByLoginName"+foundUser.toString()+"-----");
-		return new ResponseEntity<User>(foundUser, HttpStatus.FOUND);
+		return new ResponseEntity<User>(foundUser,HttpStatus.FOUND);
 		
 		
 		}
@@ -288,6 +288,7 @@ public class UserController {
 	 * @return List of Users Present in Data base
 	 * @exception UserNotFoundExceptionResponse
 	 */
+
 	@GetMapping("/profiles/all")
 	public ResponseEntity<?> getAllUsers()
 	{
